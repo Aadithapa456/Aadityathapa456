@@ -1,0 +1,169 @@
+<html>
+<head>
+  <meta http-equiv="refresh" content="" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freefire Topup Nepal</title>
+<meta charset="UTF-8">
+<link rel=stylesheet href=CSS.css>
+<!--<link rel="sylesheet" href="css/all.min.css">-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 2;
+      overflow: hidden;
+      background-color: #555;
+      font-family: 'Dosis', sans-serif;
+      border: 2px solid violet;
+      margin-top: -6px;
+      margin-left: -4px;
+      margin-right: -4px;
+    }
+     /* div.Nav_bar a{
+      font-family: Dosis;
+    } */
+    
+    li {
+      float: left;
+    }
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover{
+      background-color:violet;
+      transition: .5s;
+    }
+    
+    .active {
+      background-color:#04AA6D;
+    }
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:violet; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+    </style>
+
+</head>
+<body onload="myFunction()">
+
+<div id="loading"></div>
+  <div class="Nav_bar" id="Nav">
+     <ul>
+       <li><a href="Index.html" class="active"><i class="fa fa-home"></i></a></li>
+        <li><a href="SKYLORD.HTML">Skylord</a></li>
+        <li><a href="Total gaming.html">Total gaming</a></li>
+        <li><a href="Desi.HTML">Desi Gamers</a></li>
+        <li><a href="Tonde.html" id="HIDE">Tonder Gamer</a></li>
+        <li><a href="TSG.HTML">TSG</a></li>
+        <li><a href= about.html>About us</a></li>
+        <li><a href="Garena.html">About Freefire</a></li>
+        <li style="margin-left:400px;"><a href=devblog.html id="SHOW"> Dev Blog</a></li>
+      </ul>
+      </div>
+      <a  href="#"id="iconbar" onclick="responsive_menu()"><i class="fa fa-bars"></i>
+      </a>
+      <script>
+      /this one is for responsive menu for 800px,440px/
+      function responsive_menu(){
+        var e = document.getElementById('Nav');
+        if (e.className === 'Nav_bar'){
+          e.className += " responsive";
+        }else{
+          e.className = 'Nav_bar';
+        }
+      }
+    </script>
+      <br><br><br><br>
+<div class="HEADER"><h1 align= center >Freefire Topup Nepal</h1></div><br><br>
+<div class="registration-form">
+<Form style="margin-top: 12%;" method="POST"> 
+    <label>UID:</label><br>
+    <INPUT type="text" placeholder="Your UID" name="UID" required ><br><br>
+    <Label> E-mail: </label><br>
+    <Input  type="email" placeholder="Your Valid E-mail" name="EMAIL" required> <br><br>
+    <label> Gender </label><br>
+    <Input type="Radio" value= Male name="Gender"> Male
+    <Input type= "Radio" value= Female name="Gender"> Female <br><br>
+     <label> Payment Method</label><br>
+<Input type="radio" value= E-sewa name="Payment">E-sewa
+<Input type="radio" value= Khalti/IME Pay name="Payment">Khalti/IME Pay<br><BR>
+<input type="submit" value="Submit" id="Submit">
+</form>
+</div>
+<table border=2 style="margin-top: 80%;" id="customers" cellspacing="0" cellpadding="10 "> 
+  <tr>
+  <th>Diamond</th>
+  <th> Price </th>
+  </tr>
+  <tr>
+  <td>100</td>
+  <td>Rs.120</td>
+  </tr>
+  <tr>
+  <td>300</td>
+  <td>Rs.340</td>
+  </tr>
+  <tr>
+  <td>520</td>
+  <td>Rs.580</td>
+  </tr>
+  <tr>
+    <td>(420 dmd)</td>
+    <td>Rs.260</td>
+  </tr>
+  </table>
+  </div>
+  <div class="SSR" id="bottom">
+  <p style="font-weight: bold;font-size: 30px;background-color:violet;margin-bottom: 20px;text-align: center;color:#740e0e;font-family: Dosis;"> 
+    SOME VIDEOS
+  </p>
+  </div>
+  <div class="YT">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/K6jH8aXbQ1A" 
+  title="YouTube video player" 
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="YT01"></iframe>
+  </div>
+  <hr style="width: 20px;color: black;">
+  <div class="YT2">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HzW_K3V3Iv4"
+   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+   <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+  </body>
+</html>
