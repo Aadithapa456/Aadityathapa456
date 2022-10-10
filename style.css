@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image:linear-gradient(to left,#0a6774,#00d4ff);
+    overflow-x: hidden;
+    z-index:-1;
+    
+}
+section{
+    perspective: 1000px;
+}
+.main{
+   width: 26.3em;
+    height: 47em;
+    position:relative; 
+    top: .8em;
+    /* bottom: 2em; */
+    margin:auto;
+    margin-bottom: 3em;
+    padding: 1.2em;
+    background-color:whitesmoke;
+    opacity:0.956;
+    border-radius: 5px;
+}
+img{
+    width: 20em;
+    border-radius:100em;
+    position:relative;
+    top: 1em;
+    left:3.5em;
+    
+}
+.intro{
+    letter-spacing:.5em;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    top: 2em;
+    display: flex;
+    justify-content: center;
+}
+.secintro{
+    letter-spacing:.2em;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    top: 5em;
+    display: flex;
+    justify-content: center;
+}
+.line1{
+    width: 20em;
+    margin: auto;
+    position: relative;
+    top: 6em;
+
+}
+.ly{
+    letter-spacing:.2em;
+    font-size: 14px;
+    font-weight: 800;
+    position: relative;
+    top: 9em;
+    display: flex;
+    justify-content: center;
+}
+.line2{
+    width: 20em;
+    margin: auto;
+    position: relative;
+    top: 10em;
+
+}
+.details{
+    letter-spacing:.3em;
+    font-size: 15px;
+    font-weight: 800;
+    position: relative;
+    top: 13.5em;
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    position: relative;
+    top: 15em;
+    left: 5em;
+}
+ul{
+    list-style: none;
+    padding: 2em;
+    width: 50em;
+}
+a{
+   display: inline;
+    color: inherit;
+   text-decoration: none;
+   width: inherit;
+}
+.hovfb , .hovig , .hovtt, .hovem{
+    visibility: hidden;
+}
+.diln{
+    display: inline;
+}
+a:hover{
+    transition: .2s;
+    color: red;
+}
+ul.icon li{
+    /* padding: 0.4em 0.5em; */
+    position: relative;
+    right: 5em;
+    text-decoration: none;
+    width:2em;
+    height: 2em;
+}
