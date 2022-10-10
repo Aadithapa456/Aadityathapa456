@@ -11,6 +11,8 @@ body{
 }
 section{
     perspective: 1000px;
+    max-width: 100%;
+    min-width: 0%;
 }
 .main{
     width: 26.3rem;
@@ -127,13 +129,14 @@ ul.icon li{
     cursor: default;
 }
 .credit ul{
-    width: inherit;
-    height: inherit;
+    /* width: inherit; */
+    /* height: inherit; */
     position: relative;
     left: 35%;
     font-weight:bolder;
     font-size: 1rem;
-    bottom: 2rem;
+    bottom: 1rem;
+    margin-bottom: 1rem;
 }
 .credita:hover{
     transition:2s;
@@ -146,20 +149,24 @@ ul.icon li{
 #tt:hover{
     color: #00d4ff;
 }
-@media only screen and (max-width:767px) {
+@media (max-width:767px){
     body{
 
+    }
+    section{
+        height:100%;
     }
     .main{
         height: 45rem;
         margin-left: 5rem;
         margin-right: 5rem;
-        margin-top: 5rem;
+        margin-top: rem;
     }
     .secintro{
         word-wrap: break-word;
     }
-    .credit{
-        margin:0;
+    .credit ul{
+        width: -2rem;
+        margin-bottom: 1rem;
     }
 }
