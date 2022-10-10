@@ -24,6 +24,8 @@ section{
     background-color:whitesmoke;
     opacity:0.956;
     border-radius: 5px;
+    cursor: default;
+    user-select: none;
 }
 img{
     width: 20em;
@@ -128,7 +130,7 @@ ul.icon li{
     height: inherit;
     position: relative;
     left: 37%;
-    font-weight: 900;
+    font-weight:bolder;
     font-size: 1rem;
     bottom: 2em;
 }
@@ -136,4 +138,9 @@ ul.icon li{
     transition:2s;
     /* text-decoration: underline #00d4ff; */
     color:rgba(165, 14, 14, 0.959);
+}
+@media only screen and (max-width:767px) {
+    body{
+        background-image: ;
+    }
 }
