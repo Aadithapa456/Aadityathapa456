@@ -86,13 +86,17 @@ img{
 }
 .icons{
     position: relative;
-    top: 15em;
-    left: 5em;
+    top: 12em;
+    left: 2em;
+    width:22em;
+    padding: inherit;
 }
 ul{
     list-style: none;
     padding: 2em;
-    width: 50em;
+    width:24em;
+    position: relative;
+    left:-1em;
 }
 a{
    display: inline;
@@ -100,11 +104,9 @@ a{
    text-decoration: none;
    width: inherit;
 }
-.hovfb , .hovig , .hovtt, .hovem{
-    visibility: hidden;
-}
 .diln{
     display: inline;
+    width: 5em;
 }
 a:hover{
     transition: .2s;
@@ -112,9 +114,26 @@ a:hover{
 }
 ul.icon li{
     /* padding: 0.4em 0.5em; */
-    position: relative;
-    right: 5em;
     text-decoration: none;
-    width:2em;
-    height: 2em;
+    /* width:2em;
+    height: 2em; */
+}
+.credit{
+    width: inherit;
+    height: 0em;
+    cursor: default;
+}
+.credit ul{
+    width: inherit;
+    height: inherit;
+    position: relative;
+    left: 37%;
+    font-weight: 900;
+    font-size: 1rem;
+    bottom: 2em;
+}
+.credita:hover{
+    transition:2s;
+    /* text-decoration: underline #00d4ff; */
+    color:rgba(165, 14, 14, 0.959);
 }
