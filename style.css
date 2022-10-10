@@ -4,7 +4,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-image:linear-gradient(#0a6774,#00d4ff);
+    background-image:radial-gradient(#0a6774,#00d4ff);
     overflow-x: hidden;
     z-index:-1;
     
