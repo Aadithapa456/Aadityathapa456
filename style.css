@@ -5,6 +5,10 @@
 }
 body{
     background-image:radial-gradient(#0a6774,#00d4ff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     overflow-x: hidden;
     z-index:-1;
     
@@ -164,7 +168,7 @@ ul.icon li{
         min-height: 0vh;
         /* margin-left: 0;
         margin-right: 0; */
-        left: 49%;
+        left: 17%;
     }
     .secintro{
         word-wrap: break-word;
@@ -176,7 +180,7 @@ ul.icon li{
         margin-bottom: 0rem;
     }
     .credit ul{
-        left: 29%;
+        left: 23%;
     }
     .ly{
         top: 8rem;
