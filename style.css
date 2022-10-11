@@ -151,15 +151,19 @@ ul.icon li{
 }
 @media (max-width:767px){
     body{
-
+        height: 100%;
+        margin-bottom: 1rem;
     }
     section{
         height:100%;
+        margin: 0;
     }
     .main{
-        height: 45rem;
+        max-height: 100vh;
+        min-height: 0vh;
         /* margin-left: 0;
         margin-right: 0; */
+        left: 16%;
     }
     .secintro{
         word-wrap: break-word;
@@ -169,5 +173,11 @@ ul.icon li{
     }
     .credit{
         margin-bottom: -2rem;
+    }
+    .credit ul{
+        left: 19%;
+    }
+    .ly{
+        top: 8rem;
     }
 }
